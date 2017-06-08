@@ -1,0 +1,36 @@
+/* MDP Stylesheet
+ * Copyright (C) 2017 Ethan McTague
+ * Licensed under the MIT license. See LICENSE for details. */
+
+* { box-sizing: border-box; }
+body {
+  /* Same colors and font as CodeMirror. */
+  font-family: monospace;
+  background: #151515;
+  color: #e0e0e0;
+
+  /* Take up the full page size. */
+  margin: 0;
+  height: 100vh;
+  display: flex;
+}
+
+/* Make links match CodeMirror colors. */
+a { color: #aa759f; }
+
+/* Unordered Lists use an em dash for a bullet point. */
+ul { list-style-type: none; }
+ul > li { text-indent: -2em; }
+ul > li:before { content: "— "; }
+
+/* Editor and results are (almost) half-and-half on screen. */
+#editor, #result { width: 50%; }
+#editor .CodeMirror { height: 100%;}
+
+/* Appearance for editor and results. */
+#editor { margin: 20px; }
+#result {
+  padding: 20px;
+  overflow-y: auto;
+  border-left: 1px solid #111;
+}
