@@ -33,7 +33,7 @@ have them appear right in your document!
 
 **By** [Ethan McTague](http://tague.me)
 
-**GitHub:** (emctague/mdp)(http://github.com/emctague/mdp)
+**GitHub:** [emctague/mdp](http://github.com/emctague/mdp)
 
 **Powered By:**
 
